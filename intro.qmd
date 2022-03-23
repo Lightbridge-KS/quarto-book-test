@@ -1,0 +1,32 @@
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+## Figure
+
+```{r}
+#| label: fig-cars
+#| fig-cap: "Plot"
+
+plot(cars)
+```
+
+For example, see @fig-cars
+
+## Table
+
+```{r}
+#| label: tbl-iris
+#| tbl-cap: "Iris Data"
+
+library(knitr)
+kable(head(iris))
+```
+
+See @tbl-iris
