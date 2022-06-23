@@ -29,7 +29,6 @@ jobs:
       - name: Set up R Environment
         uses: r-lib/actions/setup-renv@v2 # Installs packages from renv lockfile
 
-
       # To publish to Netlify, RStudio Connect, or GitHub Pages, uncomment
       # the appropriate block below
       
