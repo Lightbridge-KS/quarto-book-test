@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 60a48079-6f6c-4973-8b82-b86ca7bbfb38
+      url: 'https://quarto-book-test-lightbridge.netlify.app'
