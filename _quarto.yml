@@ -17,9 +17,10 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-    css: style.css
   docx: default
   pdf: default
+
+css: style.css
 
 execute: 
   freeze: auto
